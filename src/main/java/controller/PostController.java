@@ -1,5 +1,7 @@
 package controller;
 
+import java.util.List;
+
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
@@ -18,11 +20,8 @@ public class PostController {
 		db.posts.add(post);
 	}
 	
-	public Post all(){
-		for(Post post : db.posts){
-			return post;
-		}
-		return null;
+	public List<Post> all(){
+		return db.posts;
 	}
 	
 }

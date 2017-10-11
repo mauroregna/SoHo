@@ -29,8 +29,8 @@ public class PostMb implements Serializable{
 		return "home";
 	}
 	
-//	public List<Post> allPost(){
-		
-//	}
+	public List<Post> allPost(){
+		return postCntr.all();
+	}
 
 }
