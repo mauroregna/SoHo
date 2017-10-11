@@ -21,7 +21,7 @@ public class DataBase {
 		user.setId(nextUserId());
 		users.add(user);
 		
-		Post post = new Post("Mica te amo", "mica");
+		Post post = new Post("Mensaje de prueba", "mica");
 		post.setId(nextPostId());
 		posts.add(post);
 	}
@@ -34,9 +34,6 @@ public class DataBase {
 		return posts.size();
 	}
 	
-	public List<Post> getAllPost(){
-		return posts;
-	}
 }
 
 
