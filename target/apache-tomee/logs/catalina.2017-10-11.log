@@ -1,0 +1,1422 @@
+oct 11, 2017 2:55:43 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+oct 11, 2017 2:55:43 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8080"]
+oct 11, 2017 2:55:43 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-bio-8009"]
+oct 11, 2017 2:55:44 PM org.apache.openejb.util.OptionsLog info
+INFORMACIÓN: Using 'tomee.force-reloadable=true'
+oct 11, 2017 2:55:44 PM org.apache.openejb.util.OptionsLog info
+INFORMACIÓN: Using 'tomee.remote.support=true'
+oct 11, 2017 2:55:44 PM org.apache.openejb.util.OptionsLog info
+INFORMACIÓN: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: ********************************************************************************
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: OpenEJB http://openejb.apache.org/
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: Startup: Wed Oct 11 14:55:44 ART 2017
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: Version: 4.7.0
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: Build date: 20140810
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: Build time: 12:40
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: ********************************************************************************
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: openejb.home = /home/mauro/proyects/soho-webapp/target/apache-tomee
+oct 11, 2017 2:55:44 PM org.apache.openejb.OpenEJB$Instance <init>
+INFORMACIÓN: openejb.base = /home/mauro/proyects/soho-webapp/target/apache-tomee
+oct 11, 2017 2:55:44 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMACIÓN: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 2:55:44 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFORMACIÓN: Succeeded in installing singleton service
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.ConfigurationFactory init
+INFORMACIÓN: openejb configuration file is '/home/mauro/proyects/soho-webapp/target/apache-tomee/conf/tomee.xml'
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMACIÓN: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMACIÓN: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+oct 11, 2017 2:55:44 PM org.apache.openejb.util.OptionsLog info
+INFORMACIÓN: Using 'openejb.system.apps=true'
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: openejb
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Using openejb.deploymentId.format '{ejbName}'
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMACIÓN: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.AutoConfig createContainer
+INFORMACIÓN: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+oct 11, 2017 2:55:44 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "openejb" loaded.
+oct 11, 2017 2:55:44 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMACIÓN: Creating TransactionManager(id=Default Transaction Manager)
+oct 11, 2017 2:55:44 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMACIÓN: Creating SecurityService(id=Tomcat Security Service)
+oct 11, 2017 2:55:44 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMACIÓN: Creating Container(id=Default Stateless Container)
+oct 11, 2017 2:55:44 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: openejb
+oct 11, 2017 2:55:45 PM org.apache.openejb.util.OptionsLog info
+INFORMACIÓN: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFORMACIÓN: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=openejb)
+oct 11, 2017 2:55:45 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMACIÓN:   ** Bound Services **
+oct 11, 2017 2:55:45 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFORMACIÓN:   NAME                 IP              PORT  
+oct 11, 2017 2:55:45 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMACIÓN: -------
+oct 11, 2017 2:55:45 PM org.apache.openejb.server.SimpleServiceManager start
+INFORMACIÓN: Ready!
+oct 11, 2017 2:55:45 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 2713 ms
+oct 11, 2017 2:55:45 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFORMACIÓN: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMACIÓN: Creating Resource(id=UserDatabase)
+oct 11, 2017 2:55:45 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+oct 11, 2017 2:55:45 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.0)
+oct 11, 2017 2:55:45 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT.war de la aplicación web
+oct 11, 2017 2:55:45 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFORMACIÓN: ------------------------- localhost -> /
+oct 11, 2017 2:55:45 PM org.apache.openejb.util.JarExtractor extract
+INFORMACIÓN: Extracting jar: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT.war
+oct 11, 2017 2:55:45 PM org.apache.openejb.util.JarExtractor extract
+INFORMACIÓN: Extracted path: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 2:55:45 PM org.apache.openejb.util.OptionsLog info
+INFORMACIÓN: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+oct 11, 2017 2:55:45 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 2:55:45 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 2:55:45 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFORMACIÓN: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.config.AutoConfig createContainer
+INFORMACIÓN: Auto-creating a container for bean .Comp837442194: Container(type=MANAGED, id=Default Managed Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFORMACIÓN: Creating Container(id=Default Managed Container)
+oct 11, 2017 2:55:45 PM org.apache.openejb.core.managed.SimplePassivater init
+INFORMACIÓN: Using directory /home/mauro/proyects/soho-webapp/target/apache-tomee/temp for stateful session passivation
+oct 11, 2017 2:55:45 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 2:55:45 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 2:55:45 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 2:55:45 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMACIÓN: Adding OpenWebBeansPlugin : [CdiPlugin]
+oct 11, 2017 2:55:45 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFORMACIÓN: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+oct 11, 2017 2:55:46 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFORMACIÓN: All injection points were validated successfully.
+oct 11, 2017 2:55:46 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 149 ms.
+oct 11, 2017 2:55:46 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 2:55:46 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 2:55:46 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 2:55:46 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 2:55:46 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 2:55:46 PM org.apache.catalina.deploy.WebXml setVersion
+ADVERTENCIA: Unknown version string [3.1]. Default version will be used.
+oct 11, 2017 2:55:46 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFORMACIÓN: Reading standard config META-INF/standard-faces-config.xml
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getWebAppFacesConfig
+INFORMACIÓN: Reading config /WEB-INF/faces-config.xml
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMACIÓN: Reading config : jar:file:/home/mauro/proyects/soho-webapp/target/apache-tomee/lib/openwebbeans-el22-1.2.6.jar!/META-INF/faces-config.xml
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFORMACIÓN: Reading config : jar:file:/home/mauro/proyects/soho-webapp/target/apache-tomee/lib/openwebbeans-jsf-1.2.6.jar!/META-INF/faces-config.xml
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMACIÓN: Artifact 'myfaces-api' was found in version '2.1.15' from path 'file:/home/mauro/proyects/soho-webapp/target/apache-tomee/lib/myfaces-api-2.1.15.jar'
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFORMACIÓN: Artifact 'myfaces-impl' was found in version '2.1.15' from path 'file:/home/mauro/proyects/soho-webapp/target/apache-tomee/lib/myfaces-impl-2.1.15.jar'
+oct 11, 2017 2:55:46 PM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFORMACIÓN: MyFaces Bean Validation support enabled
+oct 11, 2017 2:55:46 PM org.apache.myfaces.application.ApplicationImpl getProjectStage
+INFORMACIÓN: Couldn't discover the current project stage, using Production
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFORMACIÓN: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+oct 11, 2017 2:55:46 PM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFORMACIÓN: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+oct 11, 2017 2:55:46 PM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFORMACIÓN: ServletContext initialized.
+oct 11, 2017 2:55:46 PM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFORMACIÓN: MyFaces Unified EL support enabled
+oct 11, 2017 2:55:47 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Deployment of web application archive /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT.war has finished in 1.725 ms
+oct 11, 2017 2:55:47 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+oct 11, 2017 2:55:47 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+oct 11, 2017 2:55:47 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 1832 ms
+oct 11, 2017 2:58:32 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 2:58:32 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 2:58:32 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 2:58:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 2:58:32 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 2:58:32 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 2:58:32 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 31 ms.
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 2:58:32 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 2:58:32 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 2:58:33 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:00:01 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:00:01 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:00:02 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:00:02 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:00:02 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:00:02 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:00:02 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:00:02 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 25 ms.
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:00:02 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:00:02 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:00:02 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:11:36 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:11:36 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:11:37 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:11:37 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:11:37 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:11:37 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:11:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:11:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 29 ms.
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:11:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:11:37 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:11:37 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:14:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:14:41 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:14:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:14:42 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:14:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:14:42 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:14:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:14:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 25 ms.
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:14:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:14:42 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:14:42 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:21:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:21:41 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:21:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:21:42 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:21:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:21:42 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:21:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:21:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 39 ms.
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:21:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:21:42 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:21:42 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:22:11 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:22:11 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:22:12 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:22:12 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:22:12 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:22:12 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:22:12 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:22:12 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 37 ms.
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:22:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:22:12 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:22:12 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:24:56 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:24:56 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:24:57 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:24:57 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:24:57 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:24:57 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:24:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:24:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 22 ms.
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:24:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:24:57 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:24:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:28:31 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:28:31 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:28:32 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:28:32 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:28:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:28:32 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:28:32 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:28:32 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 32 ms.
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:28:32 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:28:32 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:28:32 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:33:16 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:33:16 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:33:17 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:33:17 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:33:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:33:17 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:33:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:33:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 23 ms.
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:33:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:33:17 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:33:17 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:34:56 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:34:56 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:34:57 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:34:57 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:34:57 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:34:57 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:34:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:34:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 19 ms.
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:34:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:34:57 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:34:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:37:46 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:37:46 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:37:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:37:47 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:37:47 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:37:47 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:37:47 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:37:47 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 19 ms.
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:37:47 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:37:47 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:37:47 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 3:51:26 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 3:51:26 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:51:27 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 3:51:27 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:51:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 3:51:27 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 3:51:27 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 3:51:27 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 21 ms.
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 3:51:27 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 3:51:27 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 3:51:27 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:03:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:03:41 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:03:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:03:42 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:03:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:03:42 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:03:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:03:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 15 ms.
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:03:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:03:42 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:03:42 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:07:36 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:07:36 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:07:37 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:07:37 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:07:37 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:07:37 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:07:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:07:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 21 ms.
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:07:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:07:37 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:07:37 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:09:01 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:09:01 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:09:02 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:09:02 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:09:02 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:09:02 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:09:02 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:09:02 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 19 ms.
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:09:02 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:09:02 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:09:02 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:45:06 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:45:06 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:45:07 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:45:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:45:07 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:45:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:45:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:45:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 18 ms.
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:45:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:45:07 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:45:07 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:46:11 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:46:11 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:46:12 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:46:12 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:46:12 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:46:12 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:46:12 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:46:12 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 18 ms.
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:46:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:46:12 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:46:12 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:49:36 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:49:36 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:37 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:49:37 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:37 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:37 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:49:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:49:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 20 ms.
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:49:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:49:37 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:49:37 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:49:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:49:41 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:49:42 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:42 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:49:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:49:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 14 ms.
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:49:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:49:42 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:49:42 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:49:56 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:49:56 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:57 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:49:57 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:57 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:49:57 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:49:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:49:57 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 20 ms.
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:49:57 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:49:57 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:49:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:50:11 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:50:11 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:50:12 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:50:12 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:50:12 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:50:12 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:50:12 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:50:12 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 13 ms.
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:50:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:50:12 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:50:12 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 4:50:51 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 4:50:51 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:50:52 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 4:50:52 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:50:52 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 4:50:52 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 4:50:52 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 4:50:52 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 13 ms.
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 4:50:52 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 4:50:52 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 4:50:52 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 5:25:16 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 5:25:16 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:17 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 5:25:17 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:17 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 5:25:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 5:25:17 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 13 ms.
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 5:25:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 5:25:17 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 5:25:17 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 5:25:31 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 5:25:31 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:32 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 5:25:32 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:32 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 5:25:32 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 5:25:32 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 19 ms.
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 5:25:32 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 5:25:32 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 5:25:32 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+oct 11, 2017 5:25:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto []
+oct 11, 2017 5:25:41 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFORMACIÓN: Undeploying app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:42 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT/WEB-INF/lib/javaee-api-6.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+oct 11, 2017 5:25:42 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFORMACIÓN: Configuring enterprise application: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb UserController: EjbDeployment(deployment-id=UserController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFORMACIÓN: Auto-deploying ejb PostController: EjbDeployment(deployment-id=PostController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.config.AppInfoBuilder build
+INFORMACIÓN: Enterprise application "/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT" loaded.
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Assembling app: /home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=UserControllerLocalBean) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController!controller.UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//UserController) --> Ejb(deployment-id=UserController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=PostControllerLocalBean) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController!controller.PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFORMACIÓN: Jndi(name=global//PostController) --> Ejb(deployment-id=PostController)
+oct 11, 2017 5:25:42 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFORMACIÓN: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@140e5a13
+oct 11, 2017 5:25:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container is starting...
+oct 11, 2017 5:25:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFORMACIÓN: OpenWebBeans Container has started, it took 19 ms.
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Created Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=PostController, ejb-name=PostController, container=Default Stateless Container)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFORMACIÓN: Started Ejb(deployment-id=UserController, ejb-name=UserController, container=Default Stateless Container)
+oct 11, 2017 5:25:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFORMACIÓN: Deployed Application(path=/home/mauro/proyects/soho-webapp/target/apache-tomee/webapps/ROOT)
+oct 11, 2017 5:25:42 PM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFORMACIÓN: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+oct 11, 2017 5:25:42 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
