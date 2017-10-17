@@ -1,9 +1,9 @@
-controller/UserController.class
-filter/AuthFilter.class
-model/User.class
 controller/PostController.class
+model/Post.class
+controller/UserController.class
 db/DataBase.class
+filter/AuthFilter.class
 view/RegisterMb.class
 view/PostMb.class
-model/Post.class
+model/User.class
 view/AuthMb.class

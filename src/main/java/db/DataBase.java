@@ -24,6 +24,8 @@ public class DataBase {
 		Post post = new Post("Mensaje de prueba", "mica");
 		post.setId(nextPostId());
 		posts.add(post);
+		posts.add(new Post("hola 1234", "mica"));
+		posts.add(new Post("hola hola hola", "mica"));
 	}
 	
 	public int nextUserId(){
@@ -34,6 +36,9 @@ public class DataBase {
 		return posts.size();
 	}
 	
+	public List<Post> getAllPost(){
+		return posts;
+	}
 }
 
 

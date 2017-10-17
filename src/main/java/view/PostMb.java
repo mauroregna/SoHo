@@ -1,11 +1,12 @@
 package view;
 
+import javax.faces.bean.ViewScoped;
 import javax.inject.Inject;
 
 import java.io.Serializable;
 import java.util.List;
 
-import javax.enterprise.context.SessionScoped;
+
 import javax.inject.Named;
 
 import controller.PostController;
@@ -13,24 +14,50 @@ import view.AuthMb;
 import model.Post;
 
 @Named
-@SessionScoped
+@ViewScoped
 public class PostMb implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Inject
 	private PostController postCntr;
+	@Inject
 	private AuthMb auth;
 	
 	private String content;
+	private String username;
 	
-	public String create(){
-		Post posts = new Post(content,auth.getUsername());
+	public void create(){
+		username = "mica";/*auth.getUsername();*/
+		Post posts = new Post(content,username);
 		postCntr.create(posts);
-		return "home";
 	}
 	
+	public PostController getPostCntr() {
+		return postCntr;
+	}
+
+	public void setPostCntr(PostController postCntr) {
+		this.postCntr = postCntr;
+	}
+
+	public AuthMb getAuth() {
+		return auth;
+	}
+
+	public void setAuth(AuthMb auth) {
+		this.auth = auth;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
 	public List<Post> allPost(){
-		return postCntr.all();
+		return postCntr.allPost();
 	}
 
 }

@@ -32,7 +32,7 @@ public class AuthFilter implements Filter{
 		HttpServletResponse servResp = (HttpServletResponse) resp;
 		
 		if(servReq.getRequestURI().equals("/home.xhtml") && !authMb.isLogged()){
-			servResp.sendRedirect("register.xhtml");
+			servResp.sendRedirect("login.xhtml");
 		}  else {
 			chain.doFilter(req, resp);
 		}

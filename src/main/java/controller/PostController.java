@@ -20,8 +20,8 @@ public class PostController {
 		db.posts.add(post);
 	}
 	
-	public List<Post> all(){
-		return db.posts;
+	public List<Post> allPost(){
+		return db.getAllPost();
 	}
 	
 }
